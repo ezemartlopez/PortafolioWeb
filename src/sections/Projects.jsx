@@ -12,17 +12,17 @@ function CardProject({project}) {
         <div className="w-full h-[250px] lg:h-[300px] rounded-2xl">
           <img src={url_image} alt="Image-project" className="w-full h-full rounded-2xl object-cover" />
         </div>
-        <div className="w-full h-[250px] lg:h-[300px] flex flex-col items-center justify-start gap-2">
+        <div className="w-full h-[250px] lg:h-[300px] px-3 flex flex-col items-center justify-start gap-2">
           <h3 className=" text-white sm:text-2xl lg:pt-3 text-lg font-bold">{titulo}</h3>
           
-          <div className="w-full flex px-2">
+          <div className="w-full flex">
             <button className="flex items-center px-3 rounded-full border border-cyan-600 gap-2">
               <i class="devicon-react-original colored"></i>
               <span className="text-white">React JS</span>
             </button>
           </div>
 
-          <p className="text-slate-400 px-1 text-base lg:px-2 font-medium text-center">{descripcion}</p>
+          <p className="text-slate-400 text-base font-medium">{descripcion}</p>
           <div className="flex-grow flex items-end gap-2 lg:pb-3">
             {url_github && (
             <a href={url_github} target="_blank" className="flex items-center gap-2 px-3 py-1 bg-gray-800 hover:bg-gray-600 border border-gray-600 rounded-2xl">
