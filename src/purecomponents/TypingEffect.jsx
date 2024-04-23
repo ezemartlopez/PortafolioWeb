@@ -43,7 +43,7 @@ const TypingEffect = ({ text, typingSpeed, eraseSpeed, pauseDuration }) => {
   }, [text, typingSpeed, eraseSpeed, pauseDuration]);
 
   return (
-      <h3 className="max-w-max bg-gradient-to-r from-red-500 to-orange-500 text-transparent bg-clip-text font-bold font-rubik text-3xl sm:text-4xl"> {displayText?displayText:"_"}</h3>
+      <h3 className="max-w-max bg-gradient-to-r from-red-500 to-orange-500 text-transparent bg-clip-text font-bold font-rubik text-2xl sm:text-4xl"> {displayText?displayText:"_"}</h3>
   );
 };
 
