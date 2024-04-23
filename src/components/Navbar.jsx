@@ -21,10 +21,11 @@ function Download() {
 function Links(){
   return (
     <>
+      <LinkNavbar id="Principal">Principal</LinkNavbar>
       <LinkNavbar id="Experiencia">Experiencia</LinkNavbar>
       <LinkNavbar id="Proyectos">Proyectos</LinkNavbar>
       <LinkNavbar id="SobreMi">Sobre Mi</LinkNavbar>
-      <LinkNavbar id="Contacto">Contacto</LinkNavbar>
+      {/*<LinkNavbar id="Contacto">Contacto</LinkNavbar>*/}
     </>
   );
 }
@@ -52,8 +53,8 @@ function Navbar() {
   }, []); // Se pasa un array vacío como segundo argumento para que el efecto solo se ejecute una vez al montar el componente
 
   return (
-    <nav className="sticky top-0 bg-slate-900/50 xl:px-0 px-4">
-        <div className="w-full h-[80px] flex justify-between xl:justify-evenly">
+    <nav className="sticky top-0 bg-slate-900/50  px-4 z-10">
+        <div className="w-full h-[80px] flex justify-between xl:justify-between">
             <div className="h-full flex items-center">
                 <div className="cursor-pointer">
                   <a href="#Principal">
