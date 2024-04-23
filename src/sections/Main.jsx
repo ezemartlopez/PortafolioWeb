@@ -60,7 +60,7 @@ function FormsContact() {
 }
 function Main() {
   return (
-    <section id="Principal" className="w-full pt-[80px] px-6 flex flex-col gap-4">
+    <section id="Principal" className="w-full pt-[100px] px-6 flex flex-col gap-4">
         <Presentation/>
         <UbicationWork/>
         <FormsContact/>
@@ -69,14 +69,3 @@ function Main() {
 }
 
 export default Main;
-/*
-<div className="w-[200px] flex flex-col gap-2 bg-red-400">
-  <span className="block text-white font-rubik font-bold text-3xl md:text-5xl bg-blue-200"> ¡Hola Mundo! yo soy</span>
-  <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-300 text-transparent bg-clip-text sm:text-6xl text-4xl font-bold font-rubik">Ezequiel Martinez</span>
-</div>
-<span className="max-w-max text-white font-rubik font-bold text-3xl md:text-5xl"> ¡Hola Mundo! yo soy</span>
-<span className="max-w-max bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-300 text-transparent bg-clip-text text-6xl font-bold font-rubik text-wrap">Ezequiel Martinez</span>
-<TypingEffect text={"Desarrollador Front-End"} typingSpeed={100} eraseSpeed={50} pauseDuration={2000} />
-<span className="text-white font-rubik">Buenos Aires, Argentina</span>
-<span className= "border-2 border-green-400 rounded-full max-w-max px-3 py-1 text-green-400 text-base font-medium">Open to Work</span>
-*/
