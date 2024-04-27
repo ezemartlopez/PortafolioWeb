@@ -18,7 +18,7 @@ function AboutMe() {
         </div>
         <div className="flex items-center justify-center">
           <div className="z-0 size-[240px] rounded-xl rotate-6 border border-slate-600 p-[10px]">
-            <img src="" alt="imagen-prfile" className="w-full h-full rounded-md bg-blue-500"/>
+            <img src="https://raw.githubusercontent.com/ezemartlopez/ImgenesPortafolio/main/profile-photo.png" alt="imagen-prfile" className="w-full h-full rounded-md object-cover"/>
           </div>
         </div>
       </div>

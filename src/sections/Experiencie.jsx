@@ -31,7 +31,7 @@ function Experiencie() {
       </div>
 
       <ol className="w-full">
-        {experience.map((data) => (<ExperienceItem data={data}/>))}      
+        {experience.map((data, index) => (<ExperienceItem key={index} data={data}/>))}      
       </ol>
     </section>
   )

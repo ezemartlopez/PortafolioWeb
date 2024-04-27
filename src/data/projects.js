@@ -1,10 +1,10 @@
 export const projects = [
     {
-        "titulo":"SVGL - A beautiful library with SVG logos",
-        "tecnologias":[],
-        "descripcion":"Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-        "url_github":"link",
-        "url_preview":"link",
-        "url_image":"https://fastly.picsum.photos/id/1013/536/354.jpg?hmac=g-noHNvrLjQNz62ByvWlOk-g2K4_LNhFKl8THdi9FU8"
+        "titulo":"ReactToDo: Gestiona tus tareas",
+        "tecnologias":["REACT", "TAILWIND"],
+        "descripcion":"Una aplicación de lista de tareas desarrollada en React que utiliza el LocalStorage para almacenar datos localmente en el navegador. Permite a los usuarios agregar, completar y eliminar tareas de manera intuitiva, asegurando que sus datos estén disponibles incluso después de cerrar la ventana del navegador.",
+        "url_github":"https://github.com/ezemartlopez/todolist",
+        "url_preview":"https://todolistmle.netlify.app/",
+        "url_image":"https://raw.githubusercontent.com/ezemartlopez/ImgenesPortafolio/main/todolistview.png"
     }
 ];
