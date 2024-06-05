@@ -37,12 +37,12 @@ function CardProject({project}) {
   const {titulo, tecnologias, descripcion, url_github, url_preview, url_image} = project;
 
   return (
-    <div className="border border-slate-700 rounded-2xl pb-2 lg:pb-0">
+    <div className="border-[2px] border-slate-700 rounded-2xl pb-2 lg:pb-0">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-        <div className="w-full h-[300px] lg:h-[300px] rounded-2xl">
+        <div className="w-full h-[240px] sm:h-[275px] lg:h-[300px] rounded-2xl">
           <img src={url_image} alt="Image-project" className="w-full h-full rounded-2xl object-cover" />
         </div>
-        <div className="w-full h-[300px] lg:h-[300px] px-3 flex flex-col items-center justify-start gap-2">
+        <div className="w-full h-[300px] sm:h-[275px] lg:h-[300px] px-3 flex flex-col items-center justify-start gap-2">
           <h3 className=" text-white sm:text-2xl lg:pt-3 text-lg font-bold">{titulo}</h3>
           
           <div className="w-full flex gap-2 justify-center">
@@ -73,7 +73,7 @@ function CardProject({project}) {
 
 function Projects() {
   return (
-    <section id="Proyectos" className='w-full pt-[80px] px-6'>
+    <section id="Proyectos" className='w-full pt-[80px] sm:px-6 px-4'>
       <div className="w-full mb-10 flex justify-start items-center gap-4">
         <img src={code} alt="logo" className='size-8'/>
         <h1 className="text-3xl text-white font-bold">Proyectos</h1>
