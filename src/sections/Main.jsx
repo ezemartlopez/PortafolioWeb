@@ -1,6 +1,7 @@
 
 import Mail from "@assets/mail.svg";
 import TypingEffect from "@purecomponents/TypingEffect";
+import Skills from "@components/Skills";
 
 function Github() {
   const url = "https://github.com/ezemartlopez";
@@ -64,6 +65,7 @@ function Main() {
         <Presentation/>
         <UbicationWork/>
         <FormsContact/>
+        <Skills/>
     </section>
   )
 }
